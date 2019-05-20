@@ -24,8 +24,7 @@ col_n = p[20:30]  # upto column n
 ##################### Loading Data To First Table ####################
 print("Loading Data To First Record Table....")
 myCur = con.cursor()
-# upto nth
-queryTableOne = 'insert into TABLE_ONE (COL_ONE,COL_TWO,COL_N) values ( :col_one, :col_two, :col_n)'
+queryTableOne = 'insert into TABLE_ONE (COL_ONE,COL_TWO,COL_N) values ( :col_one, :col_two, :col_n)' # upto nth
 myCur.execute(queryTableOne, col_one=col_one,
               col_two=col_two, col_n=col_n)  # upto nth
 con.commit()
