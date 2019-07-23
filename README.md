@@ -2,4 +2,4 @@
 A python script for extracting and loading data to an oracle database
 
 link:
-https://blog.musira.co.ke/blog/extract-load-writing-oracle-tables-from-compressed-files.html
+https://blog.musira.co.ke/blog/extract-load-writing-oracle-tables-from-compressed-files
